@@ -13,3 +13,7 @@ This repository contains all the projects developed in Web Developement...
 3.
 
 ![Screenshot (197)](https://github.com/Talibiq123/Web-Development-Projects/assets/32438477/7df8ab8e-06d0-43b6-a029-4c6b6c6ef5e0)
+
+4. 
+## Age CAlculator
+![Screenshot (206)](https://github.com/Talibiq123/Web-Development-Projects/assets/32438477/e1b0b7ff-bf60-4dbd-8b5b-e98d0fd59d4f)
