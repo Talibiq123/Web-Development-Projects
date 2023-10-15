@@ -39,11 +39,41 @@ body {
 
 .input-box input {
     flex: 1;
-    margin: 20px;
+    margin-right: 20px;
     padding: 14px 20px;
     border: 0;
     outline: 0;
     font-size: 18px;
     border-radius: 5px;
     position: relative;
+}
+
+.input-box button {
+    background: #ffff76;
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* css to set input to open date on clicking anywhere */
+.input-box input::-webkit-calendar-picker-indicator {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 28px;
+    color: #ffff65;
 }
