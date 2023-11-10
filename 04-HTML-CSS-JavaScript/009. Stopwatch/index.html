@@ -9,9 +9,11 @@
 </head>
 <body>
     <div class="stopwatch">
-        <h1>00:00:00</h1>
+        <h1 id="displayTime">00:00:00</h1>
         <div class="buttons">
-            <img src="./Images/stop.png">
+            <img src="./Images/stop.png" onclick="watchStop()">
+            <img src="./Images/start.png" onclick="watchStart()">
+            <img src="./Images/reset.png" onclick="watchReset()">
         </div>
     </div>
 </body>
